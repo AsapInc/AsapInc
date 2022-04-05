@@ -1,0 +1,83 @@
+.header-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px 80px;
+}
+
+.header-content {
+  display: flex;
+  gap: 300px;
+}
+
+.logo-header {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.header_ul {
+  display: flex;
+  gap: 80px;
+  padding: 100px 0px;
+}
+
+.header_ul li {
+  list-style: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header_ul li:hover {
+  filter: brightness(0.8);
+}
+
+.header_ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-button-li button {
+  border: 1px solid #ff4200;
+  border-radius: 50px;
+  background: transparent;
+  padding: 5px 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.about-us-container {
+  margin-top: 200px;
+  margin-bottom: 100px
+}
+
+.about-us-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.about-us-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
